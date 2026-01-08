@@ -16,7 +16,6 @@ function Navbar() {
                 <span className="font-bold text-xl tracking-wide">
                 <Link to="/">Cinema App</Link>
                 </span>
-
                 <div className="flex gap-4 items-center">
                     <Link to="/movies" className="text-sm hover:underline">
                         Movies

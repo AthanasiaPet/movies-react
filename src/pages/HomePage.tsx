@@ -31,7 +31,11 @@ function Home() {
 
     return (
         <div className="flex flex-col items-center justify-center h-[70vh] gap-6">
-            <h1 className="text-4xl font-bold">Welcome to Cinema App 🎥</h1>
+            <h1 className="text-4xl font-bold mb-1 translate-x-5">Welcome to Cinema App 🎥</h1>
+            <p className="text-gray-500 mt-1 font-bold">
+                Book your seat and enjoy the show!
+            </p>
+
 
             <div className="flex gap-4">
                 <Link
@@ -43,7 +47,7 @@ function Home() {
 
                 <Link
                     to="/login"
-                    className="px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700"
+                    className="px-6 py-3 bg-sky-800 text-white rounded hover:bg-sky-950"
                 >
                     Sign In
                 </Link>
