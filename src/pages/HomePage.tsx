@@ -6,7 +6,7 @@ function Home() {
     if (token) {
         return (
             <>
-                <div className="flex flex-col items-center justify-center h-[70vh] gap-6">
+                <div className="flex flex-col items-center justify-center h-[100vh] gap-6 bg-gradient-to-b from-gray-900 to-black text-white">
                     <h1 className="text-3xl font-bold">Welcome back 🍿</h1>
 
                     <div className="flex gap-4">
@@ -30,7 +30,7 @@ function Home() {
     }
 
     return (
-        <div className="flex flex-col items-center justify-center h-[70vh] gap-6">
+        <div className="flex flex-col items-center justify-center h-[100vh] gap-5 bg-gradient-to-b from-gray-900 to-black text-white">
             <h1 className="text-4xl font-bold mb-1 translate-x-5">Welcome to Cinema App 🎥</h1>
             <p className="text-gray-500 mt-1 font-bold">
                 Book your seat and enjoy the show!
