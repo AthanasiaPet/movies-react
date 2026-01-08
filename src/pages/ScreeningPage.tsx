@@ -73,6 +73,10 @@ function Screenings() {
                             <div>
                                 <strong>Price:</strong> {screening.price}€
                             </div>
+                            <div>
+                                <strong>Hall:</strong> {screening.cinemaHallName}
+                            </div>
+
                             <input
                                 type="text"
                                 placeholder="Seat (e.g. A1)"
