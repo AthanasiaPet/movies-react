@@ -4,7 +4,12 @@ This project is the backend of a movie reservation system developed as the final
 It provides a user-friendly web interface for browsing movies, viewing screenings, making seat reservations, and managing user authentication.
 
 # Features
-Public movie listing, Movie filtering and sorting, View screenings per movie, Seat reservation, User authentication (login / register), Role-based UI (admin / user).
+-Public movie listing
+-Movie filtering and sorting
+-View screenings per movie
+-Seat reservation
+-User authentication (login / register)
+-Role-based UI (admin / user)
 
 # Authentication & Authorization
 Authentication is handled using **JWT tokens**: Tokens are stored in localStorage, Protected routes restrict access to authenticated users, Admin-only features are displayed based on user role.
