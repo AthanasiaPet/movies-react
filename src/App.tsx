@@ -7,6 +7,7 @@ import Screenings from "./pages/ScreeningPage.tsx";
 import MyReservations from "./pages/MyReservationPage.tsx";
 import Home from "./pages/HomePage.tsx";
 import Register from "./pages/RegisterPage.tsx";
+import CreateMovie from "./pages/CreateMoviePage.tsx";
 
 
 
@@ -29,6 +30,13 @@ function App() {
                     </ProtectedRoute>}
                 />
                 <Route path="/register" element={<Register />} />
+                <Route path="/admin/movies/create" element={
+                        <ProtectedRoute>
+                            <CreateMovie />
+                        </ProtectedRoute>
+                    }
+                />
+
             </Routes>
 
         </BrowserRouter>

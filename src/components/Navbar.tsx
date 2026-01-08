@@ -28,6 +28,12 @@ function Navbar() {
                     )}
 
                     {token && (
+                        <Link to="/admin/movies/create" className="text-sm hover:underline">
+                            Add Movie
+                        </Link>
+                    )}
+
+                    {token && (
                         <button
                             onClick={handleLogout}
                             className="text-sm text-red-600 hover:underline"
@@ -35,6 +41,9 @@ function Navbar() {
                             Logout
                         </button>
                     )}
+
+
+
                 </div>
             </nav>
         </>
