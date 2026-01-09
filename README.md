@@ -22,10 +22,18 @@ React, Vite, Typescript, Axios, Tailwind CSS, React Router
 Application behavior was manually tested through **UI interactions**. API communication was validated using **Postman** during backend testing. Path: postman/MovieReservationApp.postman_collection.json
 
 # Build and Run instructions
+## Requirements
+- Node.js (for npm and Vite)
+## Steps
+1. Install dependencies:
+   ```bash
+   npm install
+
+2. Start the development server:
+   ```bash
+   npm run dev
+   
 The frontend application runs on http://localhost:5173. The frontend is deployed locally for development purposes and communicates with the backend via REST APIs.
-bash
-npm install
-npm run dev
 
 # Backend Repository
 https://github.com/AthanasiaPet/movie-reservation
